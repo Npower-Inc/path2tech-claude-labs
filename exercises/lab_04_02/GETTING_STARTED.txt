@@ -1,0 +1,89 @@
+========================================================================
+GETTING STARTED: Lab 04_02, Fitness Log Pipeline
+========================================================================
+
+Lesson 4: Breaking a problem into steps. You plan a solution, then build
+it as four small scripts that turn a messy workout log into a fitness
+report.
+
+FILES IN THIS FOLDER
+  Lab Instructions.docx  Step-by-step lab instructions. Read first.
+  workout_log.csv        The messy starter data your pipeline will
+                         clean. Upload this.
+  GETTING_STARTED.txt    This file.
+
+GET THE FILES ONTO YOUR COMPUTER
+If you are looking at this on GitHub, you need to download the files
+before you can use them:
+  - One file: click the file name, then click the download button
+    (the small arrow icon labeled "Download raw file") near the top right.
+  - Everything at once: go to the main page of the repository, click the
+    green "Code" button, then "Download ZIP". Unzip it on your computer
+    (on Windows: right-click > Extract All; on Mac: double-click it).
+
+STEP 1: READ THE LAB INSTRUCTIONS FIRST
+Open "Lab Instructions.docx" in this folder and read it all the way through
+before you start. It explains the scenario, every step, and what you
+need to hand in.
+  - No Microsoft Word? Upload the file to Google Drive and open it with
+    Google Docs, or open it for free at office.com.
+  - Keep the instructions open in one window and Replit + Claude in
+    another so you can follow along.
+  This lab asks you to plan before you prompt. Do the 4-step planning
+  on paper first, then open Replit.
+
+STEP 2: CREATE A NEW REPLIT PROJECT
+  1. Go to replit.com and log in.
+  2. Click "Create App" (it may say "+ Create" or "Create Repl").
+     If Replit asks what you want to build with AI, choose the option to
+     start from a template instead.
+  3. Choose the "Python" template and name it lab-04-02-fitness-log.
+  4. You should see a file called main.py and a green Run button.
+  Use claude.ai for this lab, not Replit's built-in AI Agent. If Replit
+  offers to write code for you, close that panel.
+
+STEP 3: UPLOAD THE STARTER DATA
+Upload workout_log.csv to your Replit project. Don't fix it by hand;
+cleaning it is part of the lab.
+  How to upload: in the Files panel on the left, click the three dots
+  (...) and choose "Upload file", or drag the file from your computer
+  into the Files panel. Make sure it ends up next to main.py, not inside
+  another folder; the code finds files by name in that spot.
+
+STEP 4: BUILD FOUR SEPARATE SCRIPTS
+There is no starter code. You'll ask Claude for four small scripts, one
+per step, and give each its own file:
+    1. read_log.py            prints the first 5 rows
+    2. clean_log.py           creates workout_clean.csv
+    3. aggregate_by_type.py   creates exercise_summary.csv
+    4. generate_report.py     creates fitness_report.txt
+
+  To create each file: in the Files panel, click the "New file" icon (a
+  page with a +), type the exact name from the list above, then paste
+  Claude's code into it. Leave main.py empty; you won't use it.
+
+STEP 5: RUN THE SCRIPTS WITH THE SHELL
+The green Run button only runs main.py, so run these scripts from the
+Shell instead. Type one line, press Enter, and check the result before
+you run the next one:
+       python read_log.py
+       python clean_log.py
+       python aggregate_by_type.py
+       python generate_report.py
+  How to find the Shell: look for a tab called "Shell" next to the
+  Console. If you can't see it, click the "+" to open a new tab (or
+  search "Shell" in the Tools panel).
+
+  Run them in this order: each script reads the file the one before it
+  created.
+
+IF YOU GET STUCK
+  - Re-read the step in the Lab Instructions you are on.
+  - Copy the exact red error message and paste it to Claude together with
+    your full code. Say you are a beginner and ask it to explain simply.
+  - "File not found" errors almost always mean a file is in the wrong
+    place or has a different name. Check that it sits next to your code
+    and that the spelling matches exactly.
+  - If one script fails, go back to the same Claude chat where you got
+    that script, paste the error, and ask Claude to fix only that
+    script without changing its input or output file names.

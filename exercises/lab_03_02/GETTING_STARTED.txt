@@ -1,0 +1,104 @@
+========================================================================
+GETTING STARTED: Lab 03_02, Bright Path Veterinary Clinic File Renaming
+========================================================================
+
+Lesson 3: Automating file tasks. You prompt Claude for one script that
+renames and sorts a vet clinic's scanned patient records, including
+handling three kinds of bad data in the mapping file.
+
+FILES IN THIS FOLDER
+  Lab Instructions.docx      Step-by-step lab instructions. Read first.
+  lab03_02_starter_data.zip  All the starter data in one zip file.
+                             Upload this (Option A).
+  lab03_02_starter_data/     The same starter data already unzipped. Use
+                             the inner lab03_02_starter_data/ folder if
+                             you pick Option B.
+  GETTING_STARTED.txt        This file.
+
+GET THE FILES ONTO YOUR COMPUTER
+If you are looking at this on GitHub, you need to download the files
+before you can use them:
+  - One file: click the file name, then click the download button
+    (the small arrow icon labeled "Download raw file") near the top right.
+  - Everything at once: go to the main page of the repository, click the
+    green "Code" button, then "Download ZIP". Unzip it on your computer
+    (on Windows: right-click > Extract All; on Mac: double-click it).
+
+STEP 1: READ THE LAB INSTRUCTIONS FIRST
+Open "Lab Instructions.docx" in this folder and read it all the way through
+before you start. It explains the scenario, every step, and what you
+need to hand in.
+  - No Microsoft Word? Upload the file to Google Drive and open it with
+    Google Docs, or open it for free at office.com.
+  - Keep the instructions open in one window and Replit + Claude in
+    another so you can follow along.
+
+STEP 2: CREATE A NEW REPLIT PROJECT
+  1. Go to replit.com and log in.
+  2. Click "Create App" (it may say "+ Create" or "Create Repl").
+     If Replit asks what you want to build with AI, choose the option to
+     start from a template instead.
+  3. Choose the "Python" template and name it lab-03-02-bright-path.
+  4. You should see a file called main.py and a green Run button.
+  Use claude.ai for this lab, not Replit's built-in AI Agent. If Replit
+  offers to write code for you, close that panel.
+
+STEP 3: ADD THE STARTER DATA (PICK ONE OPTION)
+There is no starter code; Claude will write the scripts. You only need to
+get the starter data into Replit.
+
+  OPTION A (recommended): upload the zip and unzip it in Replit
+    1. Upload lab03_02_starter_data.zip to your Replit project.
+      How to upload: in the Files panel on the left, click the three dots
+      (...) and choose "Upload file", or drag the file from your computer
+      into the Files panel. Make sure it ends up next to main.py, not inside
+      another folder; the code finds files by name in that spot.
+    2. Open the Shell and type this, then press Enter:
+         unzip lab03_02_starter_data.zip
+      How to find the Shell: look for a tab called "Shell" next to the
+      Console. If you can't see it, click the "+" to open a new tab (or
+      search "Shell" in the Tools panel).
+    3. A folder called lab03_02_starter_data appears in the Files panel.
+       Click through it and check it matches the folder layout in the Lab
+       Instructions.
+
+  OPTION B: upload the unzipped folder
+    1. On your computer, open the lab03_02_starter_data folder in this lab's
+       folder. Inside it is another folder with the same name,
+       lab03_02_starter_data.
+    2. Drag that inner lab03_02_starter_data folder into Replit's Files
+       panel (or use the three dots (...) > "Upload folder").
+    3. Check that the folder layout in Replit matches the Lab Instructions:
+       lab03_02_starter_data should contain the data directly, with no
+       second lab03_02_starter_data folder inside it.
+
+STEP 4: PROMPT CLAUDE AND RUN YOUR SCRIPTS
+  1. Open claude.ai in another tab and start a new chat.
+  2. Write your prompt as described in the Lab Instructions. Tell Claude
+     exactly where the files are in Replit, for example:
+       "The files are in lab03_02_starter_data/incoming_files and the
+        mapping file is lab03_02_starter_data/mapping.csv"
+  3. Put the script in its own file (for example rename_records.py): in the
+     Files panel click the "New file" icon, name it, and paste Claude's code
+     in.
+  4. Run a script by typing this in the Shell and pressing Enter (use
+     your file's real name):
+       python your_script_name.py
+     How to find the Shell: look for a tab called "Shell" next to the
+     Console. If you can't see it, click the "+" to open a new tab (or
+     search "Shell" in the Tools panel).
+
+STARTING OVER
+Your scripts change the files, and that's expected. To get a fresh copy of
+the data, delete the lab03_02_starter_data folder in Replit and repeat Step
+3. If you used Option A, you can also type this in the Shell to restore
+every file:
+  unzip -o lab03_02_starter_data.zip
+
+IF YOU GET STUCK
+  - Re-read the step in the Lab Instructions you are on.
+  - Copy the exact red error message and paste it to Claude together with
+    your full code. Say you are a beginner and ask it to explain simply.
+  - "File not found" errors almost always mean a file is in the wrong
+    place or has a different name. Check that it sits next to your code
+    and that the spelling matches exactly.

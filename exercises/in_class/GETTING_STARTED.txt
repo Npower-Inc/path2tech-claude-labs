@@ -1,0 +1,47 @@
+========================================================================
+GETTING STARTED: Build a Calculator with Claude (In-Class Group Activity)
+========================================================================
+
+A 30-minute group activity. Your group of three builds a working Python
+calculator with Claude as your coding partner. You do not need to know
+how to code.
+
+FILES IN THIS FOLDER
+  Claude_Calculator_Group_Activity.pdf   The activity handout. Open this
+                                         one if you can.
+  Claude_Calculator_Group_Activity.docx  The same handout as a Word
+                                         document.
+  GETTING_STARTED.txt                    This file.
+
+GET THE FILES ONTO YOUR COMPUTER
+If you are looking at this on GitHub, you need to download the files
+before you can use them:
+  - One file: click the file name, then click the download button
+    (the small arrow icon labeled "Download raw file") near the top right.
+  - Everything at once: go to the main page of the repository, click the
+    green "Code" button, then "Download ZIP". Unzip it on your computer
+    (on Windows: right-click > Extract All; on Mac: double-click it).
+
+STEP 1: OPEN THE HANDOUT
+Open Claude_Calculator_Group_Activity.pdf (or the .docx version). It has
+the timeline, your group roles, the prompts to use, and a Test Log to
+fill in. Your instructor may hand out printed copies.
+
+STEP 2: GET READY BEFORE THE ACTIVITY STARTS
+  - Form a group of 3 and pick roles: Prompter, Coder, and
+    Tester/Recorder (the handout explains each one).
+  - Make sure at least one person in the group can log in to replit.com
+    and claude.ai.
+  - Have a pen ready for the Test Log.
+
+STEP 3: FOLLOW THE HANDOUT
+The handout walks you through creating the Replit project, so start at
+its "Step 1: Set Up". There are no starter files: Claude writes all the
+code with you.
+
+
+IF YOU GET STUCK
+  - Check the "Tips for Working with Claude" box in the handout.
+  - If the calculator crashes, that's part of the activity: copy the red
+    error message and use the handout's "Prompt 3 (fixing bugs)".
+  - Still stuck? Raise your hand and ask your instructor.

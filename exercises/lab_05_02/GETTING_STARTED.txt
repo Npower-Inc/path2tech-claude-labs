@@ -1,0 +1,69 @@
+========================================================================
+GETTING STARTED: Lab 05_02, Fixing FocusPlanner
+========================================================================
+
+Lesson 5: Error handling and validation. FocusPlanner plans study
+sessions with work and break blocks, but it breaks as soon as someone
+types something unexpected. You use Claude to make it survive bad input.
+
+FILES IN THIS FOLDER
+  Lab Instructions.docx  Step-by-step lab instructions. Read first.
+  focusplanner.py        The fragile starter script you will make crash-
+                         proof.
+  GETTING_STARTED.txt    This file.
+
+GET THE FILES ONTO YOUR COMPUTER
+If you are looking at this on GitHub, you need to download the files
+before you can use them:
+  - One file: click the file name, then click the download button
+    (the small arrow icon labeled "Download raw file") near the top right.
+  - Everything at once: go to the main page of the repository, click the
+    green "Code" button, then "Download ZIP". Unzip it on your computer
+    (on Windows: right-click > Extract All; on Mac: double-click it).
+
+STEP 1: READ THE LAB INSTRUCTIONS FIRST
+Open "Lab Instructions.docx" in this folder and read it all the way through
+before you start. It explains the scenario, every step, and what you
+need to hand in.
+  - No Microsoft Word? Upload the file to Google Drive and open it with
+    Google Docs, or open it for free at office.com.
+  - Keep the instructions open in one window and Replit + Claude in
+    another so you can follow along.
+
+STEP 2: CREATE A NEW REPLIT PROJECT
+  1. Go to replit.com and log in.
+  2. Click "Create App" (it may say "+ Create" or "Create Repl").
+     If Replit asks what you want to build with AI, choose the option to
+     start from a template instead.
+  3. Choose the "Python" template and name it focusplanner.
+  4. You should see a file called main.py and a green Run button.
+  Use claude.ai for this lab, not Replit's built-in AI Agent. If Replit
+  offers to write code for you, close that panel.
+
+STEP 3: ADD THE STARTER CODE
+Open focusplanner.py on your computer (any text editor works, e.g. Notepad
+on Windows or TextEdit on Mac), copy all of it, and paste it into main.py in
+Replit.
+  How to paste code into main.py: open main.py, delete anything already
+  in it, and paste. Only paste the code itself, not Claude's
+  explanation text around it.
+
+  When the Lab Instructions mention focusplanner.py, they mean the code that
+  is now in your main.py. There are no data files to upload for this lab.
+
+STEP 4: CHECK IT WORKS, THEN TRY TO BREAK IT
+Click Run and try normal values first (for example 25-minute work blocks,
+5-minute breaks, and 4 sessions).
+  When the program asks you a question, click inside the Console panel,
+  type your answer, and press Enter.
+Then try to break it as the Lab Instructions describe, and write down
+what happens for each bad input. A crash is a useful result here: note
+the error message.
+
+IF YOU GET STUCK
+  - Re-read the step in the Lab Instructions you are on.
+  - Copy the exact red error message and paste it to Claude together with
+    your full code. Say you are a beginner and ask it to explain simply.
+  - "File not found" errors almost always mean a file is in the wrong
+    place or has a different name. Check that it sits next to your code
+    and that the spelling matches exactly.
