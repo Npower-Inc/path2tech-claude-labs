@@ -1,4 +1,4 @@
-# path2tech-claude-labs
+# Claude Labs
 
 Hands-on exercises for the Path2Tech Claude course. In each lab you use **Claude as your coding partner**: you write a prompt, get Python code back, run it, and check whether it does what you need. You don't need to know how to code before you start.
 
