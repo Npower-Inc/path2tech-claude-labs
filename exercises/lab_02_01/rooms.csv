@@ -1,0 +1,7 @@
+room_id,description,north,south,east,west,is_treasure
+start,"You are standing in a quiet forest clearing. Paths lead off in several directions.",cave,,meadow,,no
+cave,"You are in a dark, damp cave. Water drips steadily from the ceiling.",,start,tunnel,,no
+meadow,"You are in a sunny meadow full of wildflowers.",river,,,start,no
+tunnel,"A narrow tunnel stretches ahead, lit by a faint glow.",treasure_room,,,cave,no
+river,"A shallow river blocks your path. You can see something glinting on the far bank.",,meadow,treasure_room,,no
+treasure_room,"Sunlight pours into a small chamber. A chest overflowing with gold sits in the center!",,tunnel,,river,yes

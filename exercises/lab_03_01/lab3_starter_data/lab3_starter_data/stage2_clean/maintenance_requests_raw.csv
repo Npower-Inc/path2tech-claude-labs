@@ -1,0 +1,21 @@
+Unit,Category,Date,Priority,Estimated_Cost,Notes
+204,Plumbing,03/02/2026,High,$185.00,Leaking pipe under kitchen sink
+118,Electrical,2026-03-03,,95.50,Flickering lights in hallway
+309,Appliance,March 4 2026,Medium,$220.00,Refrigerator not cooling properly
+412,HVAC,03/05/2026,High,410.00,No heat - furnace not turning on
+101,Plumbing,2026-03-06,,$65.00,Slow draining bathroom sink
+207,Pest_Control,March 7 2026,Low,120.00,Ants near kitchen entry
+330,Electrical,03/08/2026,Medium,$78.25,Outlet not working in bedroom
+204,Plumbing,03/02/2026,High,$185.00,Leaking pipe under kitchen sink
+118,Electrical,03/09/2026,High,150.00,Circuit breaker keeps tripping
+309,Appliance,2026-03-10,,$310.00,Dishwasher leaking onto floor
+412,HVAC,March 11 2026,Medium,89.99,Thermostat display not responding
+101,Plumbing,03/12/2026,High,$450.00,Water heater not producing hot water
+207,Pest_Control,03/13/2026,,45.00,
+330,Electrical,2026-03-14,Low,62.50,Doorbell not ringing
+204,HVAC,March 15 2026,Medium,$175.00,AC unit making loud noise
+118,Appliance,03/16/2026,High,$530.00,Oven not heating to set temperature
+309,Plumbing,2026-03-17,Low,55.00,Bathroom faucet dripping slowly
+412,Pest_Control,03/18/2026,Medium,$95.00,Signs of mice in utility closet
+101,Electrical,March 19 2026,,72.00,Bathroom light fixture buzzing
+207,HVAC,03/20/2026,High,$620.00,Central air not cooling at all

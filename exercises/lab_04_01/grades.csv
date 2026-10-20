@@ -1,0 +1,26 @@
+Student ID,Student Name,Subject,Score,Test Date
+2001, Maria Gomez,Math,88,2024-03-01
+2002,James Carter,Math,92,03/01/2024
+2003,Maria Gomez,Science,95,2024-03-02
+,,,,
+2004,James Carter,Science,-5,03/02/2024
+2005, Tyler Nguyen,Math,76,Mar 01 2024
+2006,Sofia Reyes,Math,101,2024-03-01
+2007,Tyler Nguyen,Science,81,03/02/2024
+2008,Sofia Reyes,Science,89,Mar 02 2024
+,,,,
+2009,Ahmed Hassan ,Math,,2024-03-01
+2010,Ahmed Hassan,Science,74,03/02/2024
+2011, Lily Chen,Math,99,Mar 01 2024
+2012,Lily Chen,Science,97,2024-03-02
+2013,Noah Bennett,Math,68,03/01/2024
+,,,,
+2014,Noah Bennett,Science,72,Mar 02 2024
+2015,Grace Park ,Math,55,2024-03-01
+2016,Grace Park,Science,63,03/02/2024
+2017,Ethan Wright,Math,84,Mar 01 2024
+2018,Ethan Wright,Science,-10,2024-03-02
+2019, Zoe Ramirez,Math,91,03/01/2024
+2020,Zoe Ramirez,Science,94,Mar 02 2024
+2021,Owen Blake,Math,105,2024-03-01
+2022,Owen Blake,Science,60,03/02/2024
